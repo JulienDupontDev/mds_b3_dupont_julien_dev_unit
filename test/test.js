@@ -50,7 +50,7 @@ test('Adds 2 + 2 to NOT equal 5', () => {
 
 
 test('Should be null', () => {
-  expect(null).toBeNull
+  expect(isNull).toBeNull
 });
 
 test('Should be falsy', () => {
@@ -87,7 +87,7 @@ test('User fetched name should be Leanne Graham', async () => {
 });
 
 const reverseString = require('../src/reversestr');
-const { checkValue, fetchUser, add, createUser } = require('../src/variousfunctions');
+const { checkValue, fetchUser, add, createUser, isNull } = require('../src/variousfunctions');
 
 test('reverseString function exists', () => {
   expect(reverseString).toBeDefined
