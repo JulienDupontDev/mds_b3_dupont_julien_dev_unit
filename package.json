@@ -15,6 +15,7 @@
   ],
   "author": "MDS",
   "devDependencies": {
+    "coveralls": "^3.1.0",
     "jest": "^24.8.0"
   },
   "dependencies": {
