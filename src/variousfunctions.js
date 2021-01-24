@@ -1,13 +1,3 @@
-/*
-
->> Fake API data
-https://jsonplaceholder.typicode.com/users/
-
->> axios
-https://www.npmjs.com/package/axios
-Desc: Promise based HTTP client for the browser and node.js
-
-*/
 const axios = require('axios');
 
 const functions = {
